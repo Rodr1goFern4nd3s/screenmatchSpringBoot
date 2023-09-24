@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/screenmatch/screenmatch.iml" filepath="$PROJECT_DIR$/screenmatch/screenmatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/screenmatchSpringBoot.iml" filepath="$PROJECT_DIR$/.idea/screenmatchSpringBoot.iml" />
     </modules>
   </component>

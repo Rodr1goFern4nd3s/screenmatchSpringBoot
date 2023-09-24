@@ -11,5 +11,5 @@ public record DadosSerie(@JsonAlias("Title") String titulo,
 
 /*
 Criamos o Record DadosSerie para modelar os dados que desejamos representar
-na aplicação
+na aplicação, de como vai ficar de Json para uma classe
  */

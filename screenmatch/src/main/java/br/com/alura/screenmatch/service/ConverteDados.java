@@ -10,8 +10,11 @@ public class ConverteDados implements IConverteDados{
 
     @Override
     public <T> T obterDados(String json, Class<T> classe) {
+        /*Foi usado o Generics pois caso futuramente teria que vazer vários métodos parecidos para diversas classe que possívelmente chegaria aqui
+        Criamos a interface IconverteDados
+         */
         try {
-            return mapper.readValue(json, classe);
+            return mapper.readValue(json, classe); //Ler esse json e tenta transformar na classe que a pessoa mandou
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }
